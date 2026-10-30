@@ -123,6 +123,12 @@ remove an item that is done.
   activations from the pretrained model into the data Volume once (10M tokens × 768 dims in fp16
   is 15 GB), then run the SAE width and sparsity sweeps, which read it in parallel, on A100s.
 
+## Local Runs
+
+- Start every local training run, sweep or long analysis in tmux with `just bg <recipe> [args]`,
+  for example `just bg train --run-name wd1.0-seed0`. `tmux ls` lists the sessions and
+  `tmux attach -t <session>` watches one; each session's output is also in `runs/logs/`.
+
 ## Project Overview
 
 story-x-ray-sae is project 18 of 18 in the Latent Space Project: small ML repos that test whether
