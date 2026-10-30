@@ -1,12 +1,8 @@
 # story-x-ray-sae
 
-**Sparse autoencoders (capstone).** Sparse autoencoders on a pretrained TinyStories model's residual stream, pulling out human-readable features and steering with them.
+**Sparse autoencoders.** Sparse autoencoders on a pretrained TinyStories model's residual stream, pulling out human-readable features and steering with them.
 
-Part of the **Latent Space Project**: 18 small PyTorch repos that test one idea, that neural networks encode concepts and strategy in their latent space, and that we can read and edit those representations. Everything trains on a single consumer GPU or a laptop.
-
-| Roadmap | Phase | Depends on | Status |
-| --- | --- | --- | --- |
-| 18 of 18 | 6. Capstone | Probing experience from phases 2–4 | Not started (scaffolded) |
+**Status:** not started.
 
 ## Question
 
@@ -29,7 +25,7 @@ Can we pull human-readable features out of a real, if small, language model?
 
 - There is a gallery of clearly interpretable features and one working steering demo.
 
-Plus the definition of done every Latent Space Project repo shares:
+Plus the general checklist:
 
 Apply this checklist with the project-specific requirements and exceptions in
 [CLAUDE.md](CLAUDE.md#project-specific-scope).
