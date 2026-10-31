@@ -10,7 +10,7 @@ Can we pull human-readable features out of a real, if small, language model?
 
 ## Plan
 
-- **Architecture:** a sparse autoencoder (one hidden layer 8–32× wider than the input, ReLU with an L1 penalty, or TopK) trained on residual-stream activations of a pretrained TinyStories model loaded with Hugging Face Transformers, such as `roneneldan/TinyStories-33M`. Optional second target: the owner's own tiny-transformer trained on TinyStories.
+- **Architecture:** a sparse autoencoder (one hidden layer 8–32× wider than the input, ReLU with an L1 penalty, or TopK) trained on residual-stream activations of a pretrained TinyStories model loaded with Hugging Face Transformers, such as `roneneldan/TinyStories-33M`. Optional second target: a tiny-transformer model trained on TinyStories.
 - **Data:** TinyStories via Hugging Face `datasets`.
 
 ## Experiments
